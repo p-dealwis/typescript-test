@@ -10,26 +10,6 @@ class Node<T> {
     constructor(value: T) {
         throw Error('Not implemented')
     }
-
-    public getNext(): Node<T> | undefined {
-        throw Error('Not implemented')
-    }
-
-    public setNext(newNext: Node<T> | undefined): void {
-        throw Error('Not implemented')
-    }
-
-    public getPrev(): Node<T> | undefined {
-        throw Error('Not implemented')
-    }
-
-    public setPrev(newPrev: Node<T> | undefined): void {
-        throw Error('Not implemented')
-    }
-
-    public getValue(): T {
-        throw Error('Not implemented')
-    }
 }
 
 export class LinkedList<TElement> {
