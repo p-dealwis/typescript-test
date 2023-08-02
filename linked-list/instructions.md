@@ -20,6 +20,8 @@ offers an array-like interface for adding and removing items:
 - `pop` (_remove value at back_);
 - `shift` (_remove value at front_).
 - `unshift` (_insert value at front_);
+- `delete` (_delete a value found somewhere in the list_);
+- `count` (_count the amount of values in the list_);
 
 To keep your implementation simple, the tests will not cover error
 conditions. Specifically: `pop` or `shift` will never be called on an

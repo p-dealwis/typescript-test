@@ -3,9 +3,9 @@
  */
 
 class Node<T> {
-    private value: T
-    private next: Node<T> | undefined
-    private prev: Node<T> | undefined
+    private _value: T
+    private _next: Node<T> | undefined
+    private _prev: Node<T> | undefined
 
     constructor(value: T) {
         throw Error('Not implemented')
